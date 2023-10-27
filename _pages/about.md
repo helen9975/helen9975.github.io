@@ -34,8 +34,8 @@ Recent News
 * July 2022: Serving as reviewer for CoRL 2022
 * June 2022: Graduated from the University of Toronto Engineering Science program
 * April 2022: Accepted my offer to join UWashington for Ph.D. in CS
-* Jan 2022: Received CRA Undergraduate Research Award (Honourable Mention)
-* Sept 2021: Our work, TranspareNet, a encoder-decoder based depth estimation method and real-world data-collection and annotation pipeline, accepted at CoRL 2021 for Oral Presentation
+* Jan 2022: Received [CRA Undergraduate Research Award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2022) (Honourable Mention)
+* Sept 2021: Our work, [TranspareNet](https://arxiv.org/abs/2110.00087), a encoder-decoder based depth estimation method and real-world data-collection and annotation pipeline, accepted at CoRL 2021 for Oral Presentation
 * April 2021: Received the National Undergraduate Research Award (NSERC-USRA)
 
 
