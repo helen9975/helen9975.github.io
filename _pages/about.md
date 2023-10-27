@@ -18,12 +18,16 @@ I have had the priviledge to work with some amazing collaborators, and am always
 
 Recent News
 ======
+* October 2023: Our work, [NEWTON](https://arxiv.org/abs/2310.07018), a dataset and benchmark to evaluate LLMs' physical reasoning capabilities, accepted at EMNLP 2023, see you in Singapore!
+* September 2023: Our work, [AR2D2](https://arxiv.org/abs/2306.13818), a AR-based method for collecting robot demonstrations, accepted at CoRL 2023, see you in Atlanta!
+* August 2023: Invited as reviewer for ICRA 2024 and HRI 2024
+* April 2023: Awarded the [NSERC PGSD Fellowship](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/bellandpostgrad-belletsuperieures_eng.asp) for my Graduate Studies
 * April 2023: Invited as reviewer for CoRL 2023
 * March 2023: TAing for CSE478, Autonomous Robotics
 * March 2023: Paper accepted at ICRA 2023 Workshop
 * March 2023: Serving as reviewer for ICCV 2023
 * Jan 2023: Selected to attend CRA-WP Workshop
-* Jan 2023: Our work, MVTrans, a novel multi-task perception framework & photorealistic dataset, accepted at ICRA 2023
+* Jan 2023: Our work, [MVTrans](https://arxiv.org/abs/2302.11683), a novel multi-task perception framework & photorealistic dataset, accepted at ICRA 2023
 * Jan 2023: Serving as reviewer for CVPR 2023
 * Nov 2022: Serving as reviwer for ICRA 2023
 * Aug 2022: Serving as reviewer for ECCV 2022
