@@ -18,6 +18,10 @@ I have had the priviledge to work with some amazing collaborators, and am always
 
 Recent News
 ======
+* January 2025: Our work [AHA](https://aha-vlm.github.io), a VLM for failure detection and reasoning in robot manipulation, has been accepted to ICLR.
+* September 2024: Our work [Manipulate-Anything](https://robot-ma.github.io), a method for automated data-collection and verification for robotic manipulation has been accepted to CoRL.
+* January 2024: Started my internship at [Nvidia Seattle Robotics Lab](https://research.nvidia.com/labs/srl/).
+* January 2024: Started my 2-year term as the Chair of the [Student Activities Committee](https://www.ieee-ras.org/about-ras/governance/member-activities-board/student-activities-committee) for the Robotics and Automation Society (RAS).
 * October 2023: Our work, [NEWTON](https://arxiv.org/abs/2310.07018), a dataset and benchmark to evaluate LLMs' physical reasoning capabilities, accepted at EMNLP 2023, see you in Singapore!
 * September 2023: Our work, [AR2D2](https://arxiv.org/abs/2306.13818), a AR-based method for collecting robot demonstrations, accepted at CoRL 2023, see you in Atlanta!
 * August 2023: Invited as reviewer for ICRA 2024 and HRI 2024
