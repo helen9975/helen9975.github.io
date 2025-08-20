@@ -7,6 +7,7 @@ date: 2024-01-01
 venue: 'In Submission'
 paperurl: 'https://arxiv.org/abs/2410.00371'
 website: 'https://aha-vlm.github.io'
+authors: 'Jiafei Duan, Wilbert Pumacay, Nishanth Kumar, Yi Ru Wang, Shulin Tian, Wentao Yuan, Ranjay Krishna, Dieter Fox, Ajay Mandlekar, Yijie Guo'
 citation: 'Duan, J., Pumacay, W., Kumar, N., Wang, Y. R., Tian, S., Yuan, W., Krishna, R., Fox, D., Mandlekar, A., & Guo, Y. (2024). Manipulate-Anything: Automating Real-World Robots using Vision-Language Models. <i>In Submission</i>.'
 ---
 Automation of real-world robots using vision-language models for manipulation tasks.

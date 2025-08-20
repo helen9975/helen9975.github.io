@@ -14,38 +14,42 @@ My research focuses on **perception, representation, and planning for robot mani
 {% endif %}
 
 <style>
-.publications-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
+.publications-list {
   margin: 2rem 0;
 }
 
-.publication-card {
+.publication-item {
   background: white;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   border: 1px solid #e1e5e9;
+  margin-bottom: 1.5rem;
 }
 
-.publication-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+.publication-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.publication-header {
+  display: flex;
+  align-items: stretch;
+  min-height: 120px;
 }
 
 .publication-thumbnail {
-  width: 100%;
-  height: 200px;
+  width: 120px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   position: relative;
+  flex-shrink: 0;
 }
 
 .publication-thumbnail::before {
@@ -57,11 +61,15 @@ My research focuses on **perception, representation, and planning for robot mani
 }
 
 .publication-content {
+  flex: 1;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .publication-title {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #2c3e50;
   margin-bottom: 0.5rem;
@@ -69,14 +77,19 @@ My research focuses on **perception, representation, and planning for robot mani
 }
 
 .publication-authors {
-  font-size: 0.9rem;
-  color: #7f8c8d;
+  font-size: 0.95rem;
+  color: #555;
   margin-bottom: 0.5rem;
-  line-height: 1.3;
+  line-height: 1.4;
+}
+
+.publication-authors strong {
+  color: #667eea;
+  font-weight: 700;
 }
 
 .publication-venue {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #e74c3c;
   font-weight: 500;
   margin-bottom: 0.75rem;
@@ -84,15 +97,17 @@ My research focuses on **perception, representation, and planning for robot mani
 
 .publication-excerpt {
   font-size: 0.9rem;
-  color: #555;
+  color: #666;
   line-height: 1.5;
   margin-bottom: 1rem;
+  flex: 1;
 }
 
 .publication-links {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
+  margin-top: auto;
 }
 
 .publication-link {
@@ -149,37 +164,6 @@ My research focuses on **perception, representation, and planning for robot mani
   color: #212529;
 }
 
-.stats-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 2rem;
-  border-radius: 12px;
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.stat-item {
-  text-align: center;
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: bold;
-  display: block;
-}
-
-.stat-label {
-  font-size: 0.9rem;
-  opacity: 0.9;
-}
-
 .research-areas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -205,56 +189,53 @@ My research focuses on **perception, representation, and planning for robot mani
   margin: 0;
   line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+  .publication-header {
+    flex-direction: column;
+  }
+  
+  .publication-thumbnail {
+    width: 100%;
+    height: 80px;
+  }
+  
+  .publication-thumbnail::before {
+    font-size: 2rem;
+  }
+}
 </style>
 
-<div class="stats-section">
-  <h3>Publication Statistics</h3>
-  <div class="stats-grid">
-    <div class="stat-item">
-      <span class="stat-number">12</span>
-      <span class="stat-label">Total Publications</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">5</span>
-      <span class="stat-label">Conference Papers</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">3</span>
-      <span class="stat-label">Oral Presentations</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">4</span>
-      <span class="stat-label">In Submission</span>
-    </div>
-  </div>
-</div>
-
-<div class="publications-grid">
+<div class="publications-list">
 {% for post in site.publications reversed %}
-  <div class="publication-card">
-    <div class="publication-thumbnail" data-initial="{{ post.title | slice: 0, 1 }}">
-    </div>
-    <div class="publication-content">
-      <h3 class="publication-title">{{ post.title }}</h3>
-      <div class="publication-authors">{{ post.citation | split: '.' | first }}</div>
-      <div class="publication-venue">{{ post.venue }}</div>
-      <div class="publication-excerpt">{{ post.excerpt }}</div>
-      <div class="publication-links">
-        {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" class="publication-link primary" target="_blank">
-          📄 Paper
-        </a>
-        {% endif %}
-        {% if post.website %}
-        <a href="{{ post.website }}" class="publication-link secondary" target="_blank">
-          🌐 Website
-        </a>
-        {% endif %}
-        {% if post.code %}
-        <a href="{{ post.code }}" class="publication-link tertiary" target="_blank">
-          💻 Code
-        </a>
-        {% endif %}
+  <div class="publication-item">
+    <div class="publication-header">
+      <div class="publication-thumbnail" data-initial="{{ post.title | slice: 0, 1 }}">
+      </div>
+      <div class="publication-content">
+        <div>
+          <h3 class="publication-title">{{ post.title }}</h3>
+          <div class="publication-authors">{{ post.authors | replace: 'Yi Ru Wang', '<strong>Yi Ru Wang</strong>' | replace: 'Wang, Y. R.', '<strong>Wang, Y. R.</strong>' }}</div>
+          <div class="publication-venue">{{ post.venue }}</div>
+          <div class="publication-excerpt">{{ post.excerpt }}</div>
+        </div>
+        <div class="publication-links">
+          {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" class="publication-link primary" target="_blank">
+            📄 Paper
+          </a>
+          {% endif %}
+          {% if post.website %}
+          <a href="{{ post.website }}" class="publication-link secondary" target="_blank">
+            🌐 Website
+          </a>
+          {% endif %}
+          {% if post.code %}
+          <a href="{{ post.code }}" class="publication-link tertiary" target="_blank">
+            💻 Code
+          </a>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
