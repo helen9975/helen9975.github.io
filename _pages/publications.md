@@ -25,7 +25,7 @@ My research focuses on **perception, representation, and planning for robot mani
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border: 1px solid #e1e5e9;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .publication-item:hover {
@@ -36,17 +36,17 @@ My research focuses on **perception, representation, and planning for robot mani
 .publication-header {
   display: flex;
   align-items: stretch;
-  min-height: 120px;
+  min-height: 100px;
 }
 
 .publication-thumbnail {
-  width: 120px;
+  width: 100px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   position: relative;
   flex-shrink: 0;
@@ -62,25 +62,25 @@ My research focuses on **perception, representation, and planning for robot mani
 
 .publication-content {
   flex: 1;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .publication-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #2c3e50;
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
 }
 
 .publication-authors {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: #555;
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
 }
 
 .publication-authors strong {
@@ -89,23 +89,23 @@ My research focuses on **perception, representation, and planning for robot mani
 }
 
 .publication-venue {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #e74c3c;
   font-weight: 500;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .publication-excerpt {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #666;
-  line-height: 1.5;
-  margin-bottom: 1rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
   flex: 1;
 }
 
 .publication-links {
   display: flex;
-  gap: 0.75rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
   margin-top: auto;
 }
@@ -114,13 +114,13 @@ My research focuses on **perception, representation, and planning for robot mani
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
-  padding: 0.4rem 0.8rem;
+  padding: 0.3rem 0.6rem;
   background: #f8f9fa;
   border: 1px solid #e9ecef;
   border-radius: 6px;
   text-decoration: none;
   color: #495057;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 500;
   transition: all 0.2s ease;
 }
@@ -197,11 +197,11 @@ My research focuses on **perception, representation, and planning for robot mani
   
   .publication-thumbnail {
     width: 100%;
-    height: 80px;
+    height: 60px;
   }
   
   .publication-thumbnail::before {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 </style>
