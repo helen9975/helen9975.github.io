@@ -6,6 +6,7 @@ excerpt: 'Automation of real-world robots using vision-language models for manip
 date: 2024-01-02
 venue: 'Conference on Robot Learning (CoRL)'
 paperurl: 'https://arxiv.org/abs/2406.18915'
+website: 'https://robot-ma.github.io'
 citation: 'Duan, J.*, Yuan, W.*, Pumacay, W., Wang, Y. R., Ehsani, K., Fox, D., & Krishna, R. (2024). Manipulate-Anything: Automating Real-World Robots using Vision-Language Models. <i>Conference on Robot Learning (CoRL)</i>.'
 ---
 Automation of real-world robots using vision-language models for manipulation tasks.
@@ -14,6 +15,4 @@ Automation of real-world robots using vision-language models for manipulation ta
 
 [Download paper here](https://arxiv.org/abs/2406.18915)
 
-[Project Website](https://robot-ma.github.io)
-
-Recommended citation: Duan, J.*, Yuan, W.*, Pumacay, W., Wang, Y. R., Ehsani, K., Fox, D., & Krishna, R. (2024). Manipulate-Anything: Automating Real-World Robots using Vision-Language Models. <i>Conference on Robot Learning (CoRL)</i>. 
+[Project Website](https://robot-ma.github.io) 

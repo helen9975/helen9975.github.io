@@ -6,6 +6,7 @@ excerpt: 'Automation of real-world robots using vision-language models for manip
 date: 2024-01-01
 venue: 'In Submission'
 paperurl: 'https://arxiv.org/abs/2410.00371'
+website: 'https://aha-vlm.github.io'
 citation: 'Duan, J., Pumacay, W., Kumar, N., Wang, Y. R., Tian, S., Yuan, W., Krishna, R., Fox, D., Mandlekar, A., & Guo, Y. (2024). Manipulate-Anything: Automating Real-World Robots using Vision-Language Models. <i>In Submission</i>.'
 ---
 Automation of real-world robots using vision-language models for manipulation tasks.
@@ -14,6 +15,4 @@ Automation of real-world robots using vision-language models for manipulation ta
 
 [Download paper here](https://arxiv.org/abs/2410.00371)
 
-[Project Website](https://aha-vlm.github.io)
-
-Recommended citation: Duan, J., Pumacay, W., Kumar, N., Wang, Y. R., Tian, S., Yuan, W., Krishna, R., Fox, D., Mandlekar, A., & Guo, Y. (2024). Manipulate-Anything: Automating Real-World Robots using Vision-Language Models. <i>In Submission</i>. 
+[Project Website](https://aha-vlm.github.io) 
