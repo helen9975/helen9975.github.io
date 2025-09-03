@@ -35,7 +35,7 @@ My research focuses on **perception, representation, and planning for robot mani
 
 .publication-header {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
   min-height: 100px;
 }
 
@@ -53,6 +53,7 @@ My research focuses on **perception, representation, and planning for robot mani
   flex-shrink: 0;
   overflow: hidden;
   line-height: 0;
+  align-self: flex-start;
 }
 
 .publication-thumbnail img {
@@ -61,6 +62,8 @@ My research focuses on **perception, representation, and planning for robot mani
   width: auto;
   height: auto;
   object-fit: contain;
+  display: block;
+  margin: auto;
 }
 
 .publication-image {
