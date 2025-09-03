@@ -20,6 +20,10 @@ I have had the priviledge to work with some amazing collaborators, and am always
 
 ## Recent News
 
+* 📄 **July 2025**: Our work [RoboEval](https://roboeval.github.io), an evaluation framework for robot manipulation designed to diagnose and provide interpretable results beyond binary success, has been accepted.
+* 📄 **July 2025**: Our work [Molmo-Act](https://molmo-act.github.io), an action reasoning model for robotic manipulation, has been accepted.
+* 📄 **June 2025**: Our work [Point Arena](https://point-arena.github.io), which evaluates pointing capabilities in vision language models, has been accepted.
+* 📄 **April 2025**: Our work [Sam2Act](https://sam2act.github.io), a memory based robot policy that leverages the visual reasoning capabilities from sam2 augmented with a memory architecture, has been accepted to ICML.
 * 📄 **January 2025**: Our work [AHA](https://aha-vlm.github.io), a VLM for failure detection and reasoning in robot manipulation, has been accepted to ICLR.
 * 📄 **September 2024**: Our work [Manipulate-Anything](https://robot-ma.github.io), a method for automated data-collection and verification for robotic manipulation has been accepted to CoRL.
 * 🎯 **January 2024**: Started my internship at [Nvidia Seattle Robotics Lab](https://research.nvidia.com/labs/srl/).
