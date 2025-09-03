@@ -189,31 +189,7 @@ My research focuses on **perception, representation, and planning for robot mani
   color: #212529;
 }
 
-.research-areas {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
 
-.research-card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  border-left: 4px solid #667eea;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.research-card h4 {
-  color: #2c3e50;
-  margin-bottom: 0.5rem;
-}
-
-.research-card p {
-  color: #7f8c8d;
-  margin: 0;
-  line-height: 1.5;
-}
 
 @media (max-width: 768px) {
   .publication-header {
@@ -272,27 +248,4 @@ My research focuses on **perception, representation, and planning for robot mani
 {% endfor %}
 </div>
 
-## Research Areas
 
-<div class="research-areas">
-  <div class="research-card">
-    <h4>🤖 Robot Manipulation</h4>
-    <p>Developing algorithms for precise and robust robotic manipulation tasks</p>
-  </div>
-  <div class="research-card">
-    <h4>👁️ Computer Vision</h4>
-    <p>Novel approaches for visual perception and scene understanding</p>
-  </div>
-  <div class="research-card">
-    <h4>🧠 Representation Learning</h4>
-    <p>Learning effective representations for robotic tasks</p>
-  </div>
-  <div class="research-card">
-    <h4>📊 Machine Learning</h4>
-    <p>Applying deep learning and reinforcement learning to robotics</p>
-  </div>
-  <div class="research-card">
-    <h4>🎯 Motion Planning</h4>
-    <p>Algorithms for safe and efficient robot motion</p>
-  </div>
-</div>
