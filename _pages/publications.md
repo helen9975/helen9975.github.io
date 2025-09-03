@@ -55,13 +55,16 @@ My research focuses on **perception, representation, and planning for robot mani
   line-height: 0;
 }
 
+.publication-thumbnail img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .publication-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
   transition: transform 0.3s ease;
-  display: block;
 }
 
 .publication-thumbnail:hover .publication-image {
