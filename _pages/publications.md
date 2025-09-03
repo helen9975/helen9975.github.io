@@ -50,14 +50,29 @@ My research focuses on **perception, representation, and planning for robot mani
   font-weight: bold;
   position: relative;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
-.publication-thumbnail::before {
-  content: attr(data-initial);
+.publication-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.publication-thumbnail:hover .publication-image {
+  transform: scale(1.05);
+}
+
+.publication-initial {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .publication-content {
@@ -210,7 +225,12 @@ My research focuses on **perception, representation, and planning for robot mani
 {% for post in site.publications reversed %}
   <div class="publication-item">
     <div class="publication-header">
-      <div class="publication-thumbnail" data-initial="{{ post.title | slice: 0, 1 }}">
+      <div class="publication-thumbnail">
+        {% if post.image %}
+          <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title }}" class="publication-image">
+        {% else %}
+          <div class="publication-initial">{{ post.title | slice: 0, 1 }}</div>
+        {% endif %}
       </div>
       <div class="publication-content">
         <div>
