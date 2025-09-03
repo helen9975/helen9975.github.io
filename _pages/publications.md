@@ -40,7 +40,8 @@ My research focuses on **perception, representation, and planning for robot mani
 }
 
 .publication-thumbnail {
-  width: 100px;
+  width: 200px;
+  height: 120px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   align-items: center;
@@ -212,7 +213,7 @@ My research focuses on **perception, representation, and planning for robot mani
   
   .publication-thumbnail {
     width: 100%;
-    height: 60px;
+    height: 120px;
   }
   
   .publication-thumbnail::before {
