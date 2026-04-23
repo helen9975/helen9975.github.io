@@ -57,7 +57,8 @@ My research focuses on **perception, representation, and planning for robot mani
   margin-top: 0;
 }
 
-.publication-thumbnail img {
+.publication-thumbnail img,
+.publication-thumbnail video {
   max-width: 100%;
   max-height: 100%;
   width: auto;
@@ -213,7 +214,12 @@ My research focuses on **perception, representation, and planning for robot mani
     <div class="publication-header">
       <div class="publication-thumbnail">
         {% if post.image %}
-          <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title }}" class="publication-image">
+          {% assign ext = post.image | split: '.' | last | downcase %}
+          {% if ext == 'mp4' or ext == 'webm' or ext == 'mov' %}
+            <video src="{{ site.baseurl }}/images/{{ post.image }}" class="publication-image" autoplay muted loop playsinline></video>
+          {% else %}
+            <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title }}" class="publication-image">
+          {% endif %}
         {% else %}
           <div class="publication-initial">{{ post.title | slice: 0, 1 }}</div>
         {% endif %}
