@@ -14,12 +14,13 @@ My work focuses on developing comprehensive frameworks and methodologies to asse
 
 Before my Ph.D., I completed my Bachelor of Applied Science in [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) with a specialization in Robotics and a minor in AI at the University of Toronto. There, I conducted research on Learning-based Perception for Transparent Objects, advised by [Prof. Animesh Garg](https://animesh.garg.tech/) ([People AI and Robotics Lab](https://www.pair.toronto.edu)) and [Prof. Florian Shkurti](http://www.cs.toronto.edu/~florian/) ([Robot Vision and Learning Lab](https://rvl.cs.toronto.edu/#/)). Apart from my academic pursuits, I have worked as a research intern at Huawei Technologies R&D Canada, computer vision intern at EATLAB, and undergraduate research assistant at the National University of Singapore.
 
-I have been honored to receive the [CRA Outstanding Undergraduate Research Award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2022) - Honourable Mention and the [National Undergraduate Research Award (NSERC USRA)](https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp) in 2022 and 2021, respectively.
+I have been honored to receive the Amazon Robotics Scholarship in 2026, as well as the [CRA Outstanding Undergraduate Research Award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2022) - Honourable Mention and the [National Undergraduate Research Award (NSERC USRA)](https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp) in 2022 and 2021, respectively.
 
 I have had the priviledge to work with some amazing collaborators, and am always looking for motivated students and new collaborations. Drop me an email if you are interested!
 
 ## Recent News
 
+* 🏆 **July 2026**: Awarded the Amazon Robotics Scholarship in support of my graduate research.
 * 📄 **July 2025**: Our work [RoboEval](https://roboeval.github.io), an evaluation framework for robot manipulation designed to diagnose and provide interpretable results beyond binary success, has been accepted.
 * 📄 **July 2025**: Our work [Molmo-Act](https://molmo-act.github.io), an action reasoning model for robotic manipulation, has been accepted.
 * 📄 **June 2025**: Our work [Point Arena](https://point-arena.github.io), which evaluates pointing capabilities in vision language models, has been accepted.
